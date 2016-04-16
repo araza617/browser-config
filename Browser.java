@@ -6,7 +6,7 @@ import java.net.URI;
 import java.util.Scanner;
 
 public class Browser {
-	public static void main ( String [] args ){
+	public static void main (String [] args){
 		Scanner keyboard = new Scanner (System.in);
 		System.out.print("Please indicate what you would like to do. Simply type \"quit\" if you would like to exit.\n");
 		task_loop(keyboard);
